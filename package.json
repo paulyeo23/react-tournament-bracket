@@ -1,47 +1,40 @@
 {
-  "name": "react-tournament-bracket",
-  "version": "0.2.4",
-  "description": "React tournament bracket renderer",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
-  "scripts": {
-    "test": "mocha --require ts-node/register src/**/*.test.tsx",
-    "build": "rimraf lib && tsc",
-    "prepublish": "npm test && npm run build"
-  },
-  "files": [
-    "lib"
-  ],
-  "repository": {
+  "_from": "git+https://github.com/paulyeo23/test.git",
+  "_id": "react-tournament-bracket@0.2.4",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/react-tournament-bracket",
+  "_phantomChildren": {},
+  "_requested": {
     "type": "git",
-    "url": "git+https://github.com/moodysalem/react-tournament-bracket.git"
+    "raw": "https://github.com/paulyeo23/test.git",
+    "rawSpec": "https://github.com/paulyeo23/test.git",
+    "saveSpec": "git+https://github.com/paulyeo23/test.git",
+    "fetchSpec": "https://github.com/paulyeo23/test.git",
+    "gitCommittish": null
   },
-  "keywords": [
-    "react",
-    "tournament",
-    "tournaments",
-    "bracket",
-    "brackets",
-    "playoffs",
-    "play-off",
-    "playoff bracket",
-    "games",
-    "challonge"
+  "_requiredBy": [
+    "#USER",
+    "/"
   ],
-  "author": "Moody Salem",
-  "license": "MIT",
+  "_resolved": "git+https://github.com/paulyeo23/test.git#f427e5c1198204c93b5b739b5b822a81b2b4654d",
+  "_shasum": "3c9926a7017573b17b5a3dc85604c3c5c975ccf1",
+  "_spec": "https://github.com/paulyeo23/test.git",
+  "_where": "C:\\Users\\user\\Documents\\Rocket Academy\\tetrishub0.3\\client",
+  "author": {
+    "name": "Moody Salem"
+  },
   "bugs": {
     "url": "https://github.com/moodysalem/react-tournament-bracket/issues"
   },
-  "homepage": "https://github.com/moodysalem/react-tournament-bracket#readme",
+  "bundleDependencies": false,
   "dependencies": {
     "react-controllables": "^0.6.0",
     "underscore": "^1.9.0",
     "uuid": "^3.2.1"
   },
-  "peerDependencies": {
-    "react": "*"
-  },
+  "deprecated": false,
+  "description": "React tournament bracket renderer",
   "devDependencies": {
     "@types/mocha": "^5.2.0",
     "@types/moment": "^2.13.0",
@@ -54,5 +47,34 @@
     "rimraf": "^2.6.2",
     "ts-node": "^6.0.2",
     "typescript": "^2.8.3"
-  }
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/moodysalem/react-tournament-bracket#readme",
+  "keywords": [
+    "react",
+    "tournament",
+    "tournaments",
+    "bracket",
+    "brackets",
+    "playoffs",
+    "play-off",
+    "playoff bracket",
+    "games",
+    "challonge"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "react-tournament-bracket",
+  "peerDependencies": {
+    "react": "*"
+  },
+  "scripts": {
+    "build": "rimraf lib && tsc",
+    "prepublish": "npm test && npm run build",
+    "test": "mocha --require ts-node/register src/**/*.test.tsx"
+  },
+  "types": "lib/index.d.ts",
+  "version": "0.2.4"
 }
